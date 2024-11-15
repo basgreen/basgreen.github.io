@@ -9,10 +9,24 @@ html{
     font-size: 14px;
 
 }
-body{
-    background-color: #282828;
-    height: 100%;
+
+body {
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('b.png');
+        background-size: cover; /* Garante que a imagem preencha todo o espaço */
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+
+.background{
+    background-image: url('b.png');
+    background-size: auto, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+
 .container{
     height: 100%;
     max-width: 550px;
